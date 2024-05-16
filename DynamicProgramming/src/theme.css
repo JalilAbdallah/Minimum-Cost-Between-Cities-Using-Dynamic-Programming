@@ -1,0 +1,107 @@
+.root {
+    -fx-base: #222831;
+    -fx-background: #393E46;
+    -fx-control-inner-background: #EEEEEE;
+    -fx-text-base-color: #FFD369;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #222831;
+    -fx-text-fill: #FFD369;
+    -fx-background-radius: 20px;
+    -fx-padding: 0.5em 1em;
+    -fx-font-size: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #393E46;
+}
+
+.text-field {
+    -fx-background-color: #EEEEEE;
+    -fx-text-fill: #222831;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.5em;
+    -fx-prompt-text-fill: #939393;
+}
+
+.text-area {
+    -fx-background-color: #EEEEEE;
+    -fx-text-fill: #222831;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.5em;
+    -fx-alignment: top-left;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {
+    -fx-background-color: #222831;
+    -fx-text-fill: #FFD369;
+    -fx-background-radius: 20px 20px 0 0;
+    -fx-padding: 0.5em 1em;
+    -fx-font-size: 14px;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected > .tab-container > .tab-label {
+    -fx-background-color: #393E46;
+    -fx-background-radius: 20px 20px 0 0;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:hover > .tab-container > .tab-label {
+    -fx-background-color: #393E46;
+}
+
+.check-box {
+    -fx-background-color: transparent;
+    -fx-text-fill: #222831;
+    -fx-font-size: 14px;
+}
+
+.check-box .box {
+    -fx-background-color: #EEEEEE;
+    -fx-border-color: #222831;
+}
+
+.root {
+    -fx-background-image: url("wallpaper1.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.alert {
+    -fx-background-color: #FFD369;
+}
+
+.alert .header-panel {
+    -fx-background-color: #E0E0E0;
+    -fx-text-fill: black;
+}
+
+.grid-pane {
+    -fx-background-color: #222831;
+    -fx-grid-lines-visible: true;
+    -fx-hgap: 10px; /* horizontal gap between columns */
+    -fx-vgap: 10px; /* vertical gap between rows */
+    -fx-padding: 10px; /* padding around the grid */
+}
+
+.grid-pane .grid-lines {
+    -fx-stroke: #FFD369; /* color of the grid lines */
+}
+
+/* Theme CSS for dark mode and styling */
+.table-view .column-header-background .label {
+    -fx-background-color: #333; /* Dark background for column headers */
+    -fx-text-fill: white; /* White text color */
+    -fx-padding: 5px;
+    -fx-font-weight: bold;
+}
+
+.table-view .row-header .table-cell {
+    -fx-background-color: #333; /* Same dark background for row headers */
+    -fx-text-fill: white; /* Same white text color */
+    -fx-padding: 5px;
+    -fx-font-weight: bold;
+}
